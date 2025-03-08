@@ -103,7 +103,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  body.splash-page.alt-nav-on .birdseye-header { background: #000000; color: #ffffff; border-color: #ffffff; }
  body.splash-page.alt-nav-on .birdseye-header .wsite-phone { color: rgba(255,255,255,0.6); }
  body.splash-page.alt-nav-on .birdseye-header .nav #wsite-nav-cart-num { background: #ffffff; color: #000000; }
- /* body:not(.wsite-editor) .logo, body:not(.wsite-editor) .desktop-nav { opacity: 0; -webkit-transition: opacity 600ms ease-in 300ms; -moz-transition: opacity 600ms ease-in 300ms; -ms-transition: opacity 600ms ease-in 300ms; transition: opacity 600ms ease-in 300ms; } */
+ body:not(.wsite-editor) .logo, body:not(.wsite-editor) .desktop-nav { opacity: 0; -webkit-transition: opacity 600ms ease-in 300ms; -moz-transition: opacity 600ms ease-in 300ms; -ms-transition: opacity 600ms ease-in 300ms; transition: opacity 600ms ease-in 300ms; }
  body:not(.wsite-editor).fade-in .logo, body:not(.wsite-editor).fade-in .desktop-nav { opacity: 1; }
  .wsite-mejs-light .wsite-mejs-track { background: transparent !important; color: white !important; }
  .wsite-mejs-dark .wsite-mejs-track { background: transparent !important; }
