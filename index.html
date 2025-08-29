@@ -286,132 +286,6 @@
         }
       }
     </style>
-
-    <script>
-      var STATIC_BASE = "//cdn1.editmysite.com/";
-      var ASSETS_BASE = "//cdn2.editmysite.com/";
-      var STYLE_PREFIX = "wsite";
-    </script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-
-    <script
-      type="text/javascript"
-      src="https://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"
-    ></script>
-    <script src="https://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script>
-    <script type="text/javascript">
-      _W = _W || {};
-      _W.securePrefix = "UNSET";
-    </script>
-    <script>
-      _W = _W || {};
-      _W.customerLocale = "en_US";
-      _W.storeName = null;
-      _W.isCheckoutReskin = false;
-      _W.storeCountry = "PH";
-      _W.storeCurrency = "PHP";
-      _W.storeEuPrivacyPolicyUrl = "";
-      com_currentSite = "972327396776468520";
-      com_userID = "122527481";
-    </script>
-    <script type="text/javascript">
-      _W.resellerSite = true;
-    </script>
-    <script type="text/javascript">
-      _W.configDomain = "www.weebly.com";
-    </script>
-    <script>
-      _W.relinquish && _W.relinquish();
-    </script>
-    <script
-      type="text/javascript"
-      src="https://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"
-    ></script>
-    <script>
-      _W.themePlugins = [];
-    </script>
-    <script type="text/javascript">
-      _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js";
-    </script>
-    <script type="text/javascript">
-      var IS_ARCHIVE = 1;
-
-      function initFlyouts() {
-        initPublishedFlyoutMenus(
-          [
-            {
-              id: "620387860648970671",
-              title: "HOME",
-              url: "index.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "319072300242803728",
-              title: "Donate",
-              url: "donate.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "786718047788242422",
-              title: "VOLUNTEER",
-              url: "volunteer.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "372976137334067472",
-              title: "WEEKLY",
-              url: "weekly.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: true,
-            },
-            {
-              id: "848930864311250011",
-              title: "PROGRAMS",
-              url: "programs.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: true,
-            },
-            {
-              id: "588221904494715814",
-              title: "EVENTS",
-              url: "events.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: true,
-            },
-            {
-              id: "543075540448285272",
-              title: "About",
-              url: "about.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-          ],
-          "620387860648970671",
-          "",
-          "active",
-          false,
-          {
-            "navigation\/item":
-              '<li {{#id}}id="{{id}}"{{\/id}} class="wsite-menu-item-wrap">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref="{{url}}"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget="{{target}}"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required="{{.}}"\n\t\t{{\/membership_required}}\n\t\tclass="wsite-menu-item"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n',
-            "navigation\/flyout\/list":
-              '<div class="wsite-menu-wrap" style="display:none">\n\t<ul class="wsite-menu">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n',
-            "navigation\/flyout\/item":
-              '<li {{#id}}id="{{id}}"{{\/id}}\n\tclass="wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref="{{url}}"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget="{{target}}"\n\t\t{{\/target}}\n\t\tclass="wsite-menu-subitem"\n\t\t>\n\t\t<span class="wsite-menu-title">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class="wsite-menu-arrow">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n',
-          },
-          {},
-        );
-      }
-    </script>
   </head>
   <body
     class="header-page wsite-page-index full-width-body-off header-overlay-on alt-nav-off wsite-theme-light"
@@ -651,7 +525,10 @@
                         id="wsite-nav-650839727124188648"
                         class="wsite-menu-subitem-wrap"
                       >
-                        <a href="https://www.unitedactionforyouth.org/fc4y" class="wsite-menu-subitem">
+                        <a
+                          href="https://www.unitedactionforyouth.org/fc4y"
+                          class="wsite-menu-subitem"
+                        >
                           <span class="wsite-menu-title"> Farm Cycle </span>
                         </a>
                       </li>
@@ -2643,48 +2520,6 @@
                                                         </div>
                                                       </form>
                                                     </div>
-                                                    <script
-                                                      type="text/javascript"
-                                                      src="https://web.archive.org/web/20250308222452js_/https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-                                                    ></script>
-                                                    <script
-                                                      type="text/javascript"
-                                                    >
-                                                      (function ($) {
-                                                        window.fnames =
-                                                          new Array();
-                                                        window.ftypes =
-                                                          new Array();
-                                                        fnames[0] = "EMAIL";
-                                                        ftypes[0] = "email";
-                                                        fnames[1] = "FNAME";
-                                                        ftypes[1] = "text";
-                                                        fnames[2] = "LNAME";
-                                                        ftypes[2] = "text";
-                                                        fnames[3] = "MMERGE3";
-                                                        ftypes[3] = "text";
-                                                        fnames[4] = "MMERGE4";
-                                                        ftypes[4] = "text";
-                                                        fnames[5] = "MMERGE5";
-                                                        ftypes[5] = "text";
-                                                        fnames[6] = "MMERGE6";
-                                                        ftypes[6] = "text";
-                                                        fnames[7] = "MMERGE7";
-                                                        ftypes[7] = "text";
-                                                        fnames[8] = "MMERGE8";
-                                                        ftypes[8] = "text";
-                                                        fnames[9] = "MMERGE9";
-                                                        ftypes[9] = "text";
-                                                        fnames[10] = "MMERGE10";
-                                                        ftypes[10] = "text";
-                                                        fnames[11] = "MMERGE11";
-                                                        ftypes[11] = "text";
-                                                        fnames[12] = "MMERGE12";
-                                                        ftypes[12] = "text";
-                                                      })(jQuery);
-                                                      var $mcj =
-                                                        jQuery.noConflict(true);
-                                                    </script>
                                                     <!--End mc_embed_signup-->
                                                   </div>
                                                 </div>
@@ -3032,7 +2867,10 @@
                     id="wsite-nav-650839727124188648"
                     class="wsite-menu-subitem-wrap"
                   >
-                    <a href="https://www.unitedactionforyouth.org/fc4y" class="wsite-menu-subitem">
+                    <a
+                      href="https://www.unitedactionforyouth.org/fc4y"
+                      class="wsite-menu-subitem"
+                    >
                       <span class="wsite-menu-title"> Farm Cycle </span>
                     </a>
                   </li>
@@ -3088,8 +2926,170 @@
       </div>
     </div>
 
+    <div id="customer-accounts-app"></div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="files/theme/plugins.js"></script>
     <script type="text/javascript" src="files/theme/custom.js"></script>
-    <div id="customer-accounts-app"></div>
+    <script>
+      var STATIC_BASE = "//cdn1.editmysite.com/";
+      var ASSETS_BASE = "//cdn2.editmysite.com/";
+      var STYLE_PREFIX = "wsite";
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"
+    ></script>
+    <script src="https://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script>
+    <script type="text/javascript">
+      _W = _W || {};
+      _W.securePrefix = "UNSET";
+    </script>
+    <script>
+      _W = _W || {};
+      _W.customerLocale = "en_US";
+      _W.storeName = null;
+      _W.isCheckoutReskin = false;
+      _W.storeCountry = "PH";
+      _W.storeCurrency = "PHP";
+      _W.storeEuPrivacyPolicyUrl = "";
+      com_currentSite = "972327396776468520";
+      com_userID = "122527481";
+    </script>
+    <script type="text/javascript">
+      _W.resellerSite = true;
+    </script>
+    <script type="text/javascript">
+      _W.configDomain = "www.weebly.com";
+    </script>
+    <script>
+      _W.relinquish && _W.relinquish();
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"
+    ></script>
+    <script>
+      _W.themePlugins = [];
+    </script>
+    <script type="text/javascript">
+      _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js";
+    </script>
+    <script type="text/javascript">
+      var IS_ARCHIVE = 1;
+
+      function initFlyouts() {
+        initPublishedFlyoutMenus(
+          [
+            {
+              id: "620387860648970671",
+              title: "HOME",
+              url: "index.html",
+              target: "",
+              nav_menu: false,
+              nonclickable: false,
+            },
+            {
+              id: "319072300242803728",
+              title: "Donate",
+              url: "donate.html",
+              target: "",
+              nav_menu: false,
+              nonclickable: false,
+            },
+            {
+              id: "786718047788242422",
+              title: "VOLUNTEER",
+              url: "volunteer.html",
+              target: "",
+              nav_menu: false,
+              nonclickable: false,
+            },
+            {
+              id: "372976137334067472",
+              title: "WEEKLY",
+              url: "weekly.html",
+              target: "",
+              nav_menu: false,
+              nonclickable: true,
+            },
+            {
+              id: "848930864311250011",
+              title: "PROGRAMS",
+              url: "programs.html",
+              target: "",
+              nav_menu: false,
+              nonclickable: true,
+            },
+            {
+              id: "588221904494715814",
+              title: "EVENTS",
+              url: "events.html",
+              target: "",
+              nav_menu: false,
+              nonclickable: true,
+            },
+            {
+              id: "543075540448285272",
+              title: "About",
+              url: "about.html",
+              target: "",
+              nav_menu: false,
+              nonclickable: false,
+            },
+          ],
+          "620387860648970671",
+          "",
+          "active",
+          false,
+          {
+            "navigation\/item":
+              '<li {{#id}}id="{{id}}"{{\/id}} class="wsite-menu-item-wrap">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref="{{url}}"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget="{{target}}"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required="{{.}}"\n\t\t{{\/membership_required}}\n\t\tclass="wsite-menu-item"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n',
+            "navigation\/flyout\/list":
+              '<div class="wsite-menu-wrap" style="display:none">\n\t<ul class="wsite-menu">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n',
+            "navigation\/flyout\/item":
+              '<li {{#id}}id="{{id}}"{{\/id}}\n\tclass="wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref="{{url}}"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget="{{target}}"\n\t\t{{\/target}}\n\t\tclass="wsite-menu-subitem"\n\t\t>\n\t\t<span class="wsite-menu-title">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class="wsite-menu-arrow">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n',
+          },
+          {},
+        );
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+    ></script>
+    <script type="text/javascript">
+      (function ($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+        fnames[1] = "FNAME";
+        ftypes[1] = "text";
+        fnames[2] = "LNAME";
+        ftypes[2] = "text";
+        fnames[3] = "MMERGE3";
+        ftypes[3] = "text";
+        fnames[4] = "MMERGE4";
+        ftypes[4] = "text";
+        fnames[5] = "MMERGE5";
+        ftypes[5] = "text";
+        fnames[6] = "MMERGE6";
+        ftypes[6] = "text";
+        fnames[7] = "MMERGE7";
+        ftypes[7] = "text";
+        fnames[8] = "MMERGE8";
+        ftypes[8] = "text";
+        fnames[9] = "MMERGE9";
+        ftypes[9] = "text";
+        fnames[10] = "MMERGE10";
+        ftypes[10] = "text";
+        fnames[11] = "MMERGE11";
+        ftypes[11] = "text";
+        fnames[12] = "MMERGE12";
+        ftypes[12] = "text";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
   </body>
 </html>
